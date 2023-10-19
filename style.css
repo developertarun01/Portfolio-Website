@@ -1,0 +1,185 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #033855;
+    color: #ffa400;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #042131;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffa400;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: orangered;
+}
+
+.left {
+    font-size: 1.5rem;
+    display: flex;
+}
+
+.left img {
+    margin-right: 20px;
+    border-radius: 50px;
+    height: 40px;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40rem;
+}
+
+.firstSection > div {
+    width: 30%;
+    margin-top: 40px;
+}
+
+.leftSection {
+    font-size: 2rem;
+    margin-left: 50px;
+}
+
+.leftSection .buttons {
+    padding-top: 50px;
+}
+
+.leftSection .btn{
+    padding: 12px;
+    margin-right: 25px;
+    background: transparent;
+    color: #ffa400;
+    border: 2px solid orangered;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.rightSection img {
+    width: 90%;
+    margin-left: 45px;
+}
+
+.purple {
+    color: orangered;
+}
+
+#element {
+    color: orangered;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+}
+
+main hr {
+    border: 0;
+    background: #ffa400;
+    height: 10px;
+    margin: 40px 0;
+}
+
+.secondSection {
+    height: 650px;
+    padding-top: 70px;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+
+.secondSection .box {
+    height: 2px;
+    background: #ffa400;
+    width: 80vw;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: #ffa400;
+    margin: 0px 120px;
+}
+
+.textGrey {
+    color: orange;
+}
+
+.imageTop {
+    width: 30px;
+    position: relative;
+    top: -40px;
+    left: -14px;
+}
+
+.verticalTittle {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 20px;
+}
+
+.verticalDesc {
+    position: relative;
+    top: 100px;
+    color: orange;
+    width: 150px;
+    font-size: 10px;
+}
+
+footer {
+    background-color: #042131;
+}
+
+.footer {
+    display: flex;
+    padding: 40px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #ffa400;
+}
+
+.footer > div {
+    width: 223px;
+}
+
+footer .footerRight {
+    text-align: center;
+    color: grey;
+    padding: 12px 0;
+}
