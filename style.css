@@ -168,6 +168,12 @@ footer {
     color: #ffa400;
 }
 
+.footerFirst {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
 .footerSecond {
     margin: 0px 50px;
 }
