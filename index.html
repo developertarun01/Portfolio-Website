@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,14 +19,37 @@
                 <img src="img/profile-pic.png" alt="">
                 Developer Tarun
             </div>
+            <button class="my-button" id="my-button">
+                <i class="fas fa-close"></i>
+            </button>
             <div class="right">
-                <ul>
+                <ul id="mynav1">
                     <li><a href="#" class="purple">Home</a></li>
                     <li><a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
                             target="_blank">About</a>
                     </li>
                     <li><a href="https://www.instagram.com/developertarun/" target="_blank">Serices</a></li>
                     <li><a href="https://github.com/developertarun01" target="_blank">Projects</a></li>
+                    <li><a href="https://developertarun01.github.io/Connect-4-Game/" target="_blank">Play</a></li>
+                    <li><a href="https://api.whatsapp.com/send/?phone=918630739687&text=Hi%20Tarun%20%F0%9F%91%8B&type=phone_number&app_absent=0"
+                            target="_blank">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <header id="mynav">
+        <nav>
+            <div class="right">
+                <ul class="right-up">
+                    <li><a href="#" class="purple">Home</a></li>
+                    <li><a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
+                            target="_blank">About</a>
+                    </li>
+                    <li><a href="https://www.instagram.com/developertarun/" target="_blank">Serices</a></li>
+                </ul>
+                <ul class="right-down">
+                    <li><a href="https://github.com/developertarun01" target="_blank">Projects</a></li>
+                    <li><a href="https://developertarun01.github.io/Connect-4-Game/" target="_blank">Play</a></li>
                     <li><a href="https://api.whatsapp.com/send/?phone=918630739687&text=Hi%20Tarun%20%F0%9F%91%8B&type=phone_number&app_absent=0"
                             target="_blank">Contact Me</a></li>
                 </ul>
@@ -171,6 +195,7 @@
         </div>
     </footer>
 
+    <script src="index.js"></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
