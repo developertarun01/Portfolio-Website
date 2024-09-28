@@ -3,6 +3,10 @@
   padding: 0px;
 }
 
+h2 {
+  color: #ffa400;
+}
+
 body {
   background-color: #033855;
   color: white;
@@ -247,7 +251,11 @@ footer .footerRight {
 
   nav .left {
     margin: 0px 20px;
-    text-align: center;
+    align-items: center;
+  }
+
+  nav .left img {
+    margin-right: 0px;
   }
 
   .right ul {
