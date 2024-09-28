@@ -5,3 +5,7 @@ button.addEventListener('click', () => {
   nav.classList.toggle('show');
   console.log("Clicked")
 });
+
+function myFunction(x) {
+  x.classList.toggle("change");
+}
