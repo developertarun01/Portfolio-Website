@@ -302,6 +302,9 @@ footer .footerRight {
 
 /* Smartphone */
 @media (max-width: 480px) {
+  h2 {
+    font-size: 22px;
+  }
   #mynav {
     display: none;
   }
@@ -369,7 +372,7 @@ footer .footerRight {
     /* margin-left: 16px; */
     width: auto;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .leftSection .btn {
@@ -466,5 +469,9 @@ footer .footerRight {
     flex-direction: row;
     justify-content: space-around;
     color: white;
+  }
+
+  footer .footerRight {
+    font-size: 11px;
   }
 }
