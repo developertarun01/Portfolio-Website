@@ -3,6 +3,32 @@
   padding: 0px;
 }
 
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #042131;
+  border-radius: 50%;
+  color: white;
+  margin: 15px 0px;
+  margin-right: 36px;
+}
+
+.fa img {
+  width: 25.72px;
+  height: 26px;
+}
+
+.fa:hover {
+  color: #ffa400;
+}
+
+.btnbox {
+  width: 100%;
+}
+
 h2 {
   color: #ffa400;
 }
@@ -67,16 +93,12 @@ nav ul li a:hover {
 
 .firstSection > div {
   width: 30%;
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 
 .leftSection {
   font-size: 2rem;
   margin-left: 50px;
-}
-
-.leftSection .buttons {
-  padding-top: 50px;
 }
 
 .leftSection .btn {
@@ -87,6 +109,7 @@ nav ul li a:hover {
   border: 1px solid #042131;
   border-radius: 6px;
   font-size: 18px;
+  width: 150px;
   cursor: pointer;
 }
 
@@ -115,7 +138,7 @@ nav ul li a:hover {
 
 main hr {
   border: 0;
-  background: white;
+  background: #042131;
   height: 10px;
   margin: 40px 0;
 }
@@ -156,10 +179,10 @@ main hr {
 }
 
 .secondSection1 .vertical1 {
-  height: 310px;
+  height: auto;
   width: 300px;
-  border: 1px solid #042131;
-  background-color: #042131;
+  border: 3px solid #042131;
+  /* background-color: #042131; */
   border-radius: 15px;
   margin: 0px 30px;
   display: flex;
@@ -190,7 +213,7 @@ main hr {
 
 .verticalDesc1 {
   /* top: 100px; */
-  height: 180px;
+  height: 190px;
   color: white;
   width: 90%;
   font-size: 12px;
@@ -199,11 +222,10 @@ main hr {
 
 .vertical1 .btn {
   padding: 12px;
-  /* background: transparent; */
   background-color: #042131;
   color: #ffa400;
   border: 1px solid #042131;
-  /* border-radius: 6px; */
+  width: 238px;
   font-size: 18px;
   cursor: pointer;
 }
@@ -305,6 +327,11 @@ footer .footerRight {
   h2 {
     font-size: 22px;
   }
+
+  .fa {
+    margin: 15px 14px 20px 14px;
+  }
+
   #mynav {
     display: none;
   }
@@ -368,7 +395,7 @@ footer .footerRight {
   }
 
   .firstSection .leftSection {
-    margin: 50px 0px;
+    margin: 40px 0px;
     /* margin-left: 16px; */
     width: auto;
     text-align: center;
@@ -424,7 +451,7 @@ footer .footerRight {
   }
 
   .secondSection1 {
-    height: 173rem;
+    height: 165rem;
   }
 
   .secondSection1 .box1 {
@@ -438,9 +465,13 @@ footer .footerRight {
     height: 160px;
   }
 
+  .vertical1 .btn {
+    width: 100%;
+  }
+
   .secondSection1 .vertical1 {
     margin: 0px 0px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
 
   .secondSection1 h1 {
