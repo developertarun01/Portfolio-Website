@@ -3,6 +3,49 @@
   padding: 0px;
 }
 
+/*body,
+html {
+  width: 90%;
+  height: 100%;
+   overflow: hidden;
+  background-color: #f0f0f0; 
+}*/
+
+.background {
+  position: relative;
+  width: 80vw; /* 80% of the viewport width */
+  height: 50vh; /* 50% of the viewport height */
+  overflow: hidden; /* Hide any overflow */
+  margin: auto; /* Center the spawn area horizontally */
+  top: 25vh; /* Adjust vertical position */
+  border: 1px solid rgba(0, 0, 0, 0.2); /* Optional: border to visualize the area */
+}
+
+.floating-box {
+  z-index: -1;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #042131; /* White with transparency */
+  border-radius: 5px;
+  animation: floatRotate 9s infinite linear;
+}
+
+/* Combined floating and rotating animation */
+@keyframes floatRotate {
+  0% {
+    transform: translateY(86vh) rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(-50vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
 .fa {
   padding: 10px;
   font-size: 30px;
@@ -330,6 +373,7 @@ footer .footerRight {
 
   .fa {
     margin: 15px 14px 20px 14px;
+    padding: 8px;
   }
 
   #mynav {
