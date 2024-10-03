@@ -194,7 +194,7 @@ main hr {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
   padding: 10px;
 }
@@ -202,11 +202,11 @@ main hr {
 .imageTop1 {
   width: 30px;
   height: 30px;
+  margin-right: 25px;
 }
 
 .verticalTittle1 {
-  /* top: 75px; */
-  /* width: 150px; */
+  text-align: center;
   font-size: 20px;
   color: #ffa400;
 }
